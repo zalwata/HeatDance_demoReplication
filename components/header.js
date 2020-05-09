@@ -7,7 +7,7 @@ export default function Header() {
       <Text style={styles.title}>ON DEMAND</Text>
         <Text style={styles.subTitle}>FEATURED VIDEO</Text>
             <TouchableOpacity>
-                <Text style={styles.subTitleBtn}>DANCE NOW</Text>
+                <Text style={styles.subTitleBtn}>DANCE NOW!</Text>
             </TouchableOpacity>
     </View>
   );
