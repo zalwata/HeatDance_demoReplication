@@ -6,9 +6,11 @@ export default function Header() {
     <View style={styles.header}>
       <Text style={styles.title}>ON DEMAND</Text>
         <Text style={styles.subTitle}>FEATURED VIDEO</Text>
-            <TouchableOpacity>
-                <Text style={styles.subTitleBtn}>DANCE NOW!</Text>
-            </TouchableOpacity>
+            <View style={styles.subTitleBtnLayout}>
+             <TouchableOpacity>
+                <Text style={styles.subTitleBtn}>DANCE NOW</Text>
+             </TouchableOpacity>
+            </View>
     </View>
   );
 }
@@ -29,6 +31,9 @@ const styles = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     fontSize: 40
+  },
+  subTitleBtnLayout: {
+    padding: 10,
   },
   subTitleBtn: {
     color: '#fff',
