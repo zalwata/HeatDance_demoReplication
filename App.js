@@ -11,11 +11,11 @@ export default function App() {
       <View style = {styles.content}>
         {/* {content} */}
         <View style = {styles.listOfClasses}> 
-          <Text> WARM-UP</Text>
-          <Text> STRETCH</Text>
-          <Text> H||T</Text>
-          <Text> AEROBICS</Text>
-          <Text> SALSA FUSION</Text>
+          <Text style = {styles.warmupBtn}> WARM-UP</Text>
+          <Text style = {styles.warmupBtn}> STRETCH</Text>
+          <Text style = {styles.warmupBtn}> H||T</Text>
+          <Text style = {styles.warmupBtn}> AEROBICS</Text>
+          <Text style = {styles.warmupBtn}> SALSA FUSION</Text>
         </View>
       </View>
 
@@ -31,6 +31,15 @@ const styles = StyleSheet.create({
   content: {
   },
   listOfClasses: {
-    
+  },
+  warmupBtn: {
+    color: '#fff',
+    backgroundColor: 'black',
+    textAlign: 'center',
+    padding: 20,
+    borderWidth: 1,
+    borderColor: '#fff',
+    fontSize: 30,
+    height: 80,
   },
 });

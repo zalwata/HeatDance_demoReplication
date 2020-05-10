@@ -14,7 +14,6 @@ export default function Header() {
             <TouchableOpacity>
                 <Text style={styles.searchBtn}>SEARCH</Text>
              </TouchableOpacity>
-
     </View>
   );
 }
@@ -57,6 +56,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#fff',
     fontSize: 10,
-    height: 35
+    height: 35,
+    fontWeight: 'bold',
   },
 });
