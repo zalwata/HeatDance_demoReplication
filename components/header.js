@@ -11,6 +11,10 @@ export default function Header() {
                 <Text style={styles.subTitleBtn}>DANCE NOW</Text>
              </TouchableOpacity>
             </View>
+            <TouchableOpacity>
+                <Text style={styles.searchBtn}>SEARCH</Text>
+             </TouchableOpacity>
+
     </View>
   );
 }
@@ -44,5 +48,15 @@ const styles = StyleSheet.create({
     borderRadius: 1,
     borderRadius: 10,
     fontSize: 20
+  },
+  searchBtn: {
+    color: '#fff',
+    textAlign: 'center',
+    padding: 10,
+    marginTop: 40,
+    borderWidth: 1,
+    borderColor: '#fff',
+    fontSize: 10,
+    height: 35
   },
 });
